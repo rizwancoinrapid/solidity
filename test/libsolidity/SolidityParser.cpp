@@ -1207,8 +1207,8 @@ BOOST_AUTO_TEST_CASE(keyword_is_reserved)
 		"unchecked"
 	};
 	
-
-	for (const auto& keyword : keywords) {
+	for (const auto& keyword: keywords) 
+	{
 		auto text = std::string("contract ") + keyword + " {}";
 		CHECK_PARSE_ERROR(text.c_str(), "Expected identifier");
 	}
