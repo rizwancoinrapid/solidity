@@ -144,6 +144,7 @@ namespace solidity
 	K(Assembly, "assembly", 0)                                         \
 	K(Break, "break", 0)                                               \
 	K(Constant, "constant", 0)                                         \
+	K(Constructor, "constructor", 0)                                   \
 	K(Continue, "continue", 0)                                         \
 	K(Contract, "contract", 0)                                         \
 	K(Do, "do", 0)                                                     \
@@ -227,7 +228,6 @@ namespace solidity
 	K(Case, "case", 0)                                                 \
 	K(Catch, "catch", 0)                                               \
 	K(Const, "const", 0)                                               \
-	K(Constructor, "constructor", 0)                                   \
 	K(Default, "default", 0)                                           \
 	K(Define, "define", 0)                                             \
 	K(Fallback, "fallback", 0)                                         \

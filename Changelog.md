@@ -1,9 +1,10 @@
 ### 0.5.0 (unreleased)
 
 Features:
- * Adds new reserved keywords: ``alias``, ``apply``, ``auto``, ``const``, ``constructor``, ``define``, ``fallback``,
+ * Adds new reserved keywords: ``alias``, ``apply``, ``auto``, ``const``, ``define``, ``fallback``,
    ``immutable``, ``implements``, ``macro``, ``mutable``, ``override``, ``promise``, ``reference``, ``sealed``,
    ``sizeof``, ``supports``, ``topic``, ``typedef`` and ``unchecked``.
+ * Constructors are no longer defined as functions with the name of the contract, but using the special ``constructor`` keyword instead.
 
 ### 0.4.21 (unreleased)
 
